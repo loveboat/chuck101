@@ -13,8 +13,6 @@ SawOsc sw => Pan2 p_sw => g;
 
 Math.srandom(5); // seed with an arbitary number for repeat playthrough
 
-//FIXME make this 30 seconds for submission
-//30::second => dur duration;
 30::second => dur duration;
 2.5::second => dur fade_length;
 .25::second => dur quarter_note;
